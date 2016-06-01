@@ -13,8 +13,9 @@
     tools:showIn="@layout/app_bar_main">
 
     <TextView
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Dies ist die APP der Hochschule Ostwestfalen Lippe"
-        android:textSize="22dp" />
+        android:textSize="@dimen/schrift" />
 </RelativeLayout>

@@ -18,6 +18,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -63,9 +64,20 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.Extra1) {
 
-        } else if (id == R.id.Extra2) {
+        }else if (id == R.id.Einstellungen) {
+            Intent myintent2 = new Intent(MainActivity.this, EinstellungenActivity.class);
+            startActivity(myintent2);
 
+        }else if (id == R.id.Anmelden) {
+            Intent myintent1 = new Intent(MainActivity.this, anmelden.class);
+            startActivity(myintent1);
         }
+
+
+
+
+
+
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;

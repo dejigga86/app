@@ -3,23 +3,35 @@
 
     <group android:checkableBehavior="single">
         <item
+            android:id="@+id/Extra1"
+
+            android:title="Raumplan" />
+
+
+        <item
+            android:id="@+id/Navigation"
+
+            android:title="Indoor-Navigation"
+
+            />
+        <item
             android:id="@+id/Stundenplan"
 
             android:title="Stundenplan" />
         <item
-            android:id="@+id/Navigation"
+            android:id="@+id/Einstellungen"
 
-            android:title="Navigation"
-
-           />
+            android:title="Einstellungen" />
         <item
-            android:id="@+id/Extra1"
+            android:id="@+id/Anmelden"
 
-            android:title="Extra1test" />
-        <item
-            android:id="@+id/Extra2"
+            android:title="Anmelden" />
 
-            android:title="Extra2" />
+
+
+
+
+
     </group>
 
 

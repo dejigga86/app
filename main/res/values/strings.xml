@@ -3,6 +3,31 @@
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Passwort</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Anmelden</string>
+    <string name="error_invalid_email">Ungültige Email-Adresse</string>
+    <string name="error_invalid_password">Passwort zu kurz</string>
+    <string name="error_incorrect_password">Falsches Passwort</string>
+    <string name="error_field_required">Benötigte Eingabe</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+    completions."</string>
+    <string name="fach">Fachbereich</string>
+
+    <string-array name="bereich">
+        <item>1</item>
+        <item>2 </item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+
+
 
 
 </resources>

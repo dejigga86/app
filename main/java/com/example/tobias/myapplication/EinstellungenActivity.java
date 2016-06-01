@@ -2,22 +2,16 @@ package com.example.tobias.myapplication;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
 
 /**
- * Created by Tobias on 29.05.2016.
+ * Created by Tobias on 02.06.2016.
  */
-public class navi extends AppCompatActivity{
+public class EinstellungenActivity extends AppCompatActivity {
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.navigation);
+        setContentView(R.layout.einstellungen);
 
 
     }
-
 }
-
-
