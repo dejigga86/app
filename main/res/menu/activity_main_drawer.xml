@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Stundenplan"
+
+            android:title="Stundenplan" />
+        <item
+            android:id="@+id/Navigation"
+
+            android:title="Navigation"
+
+           />
+        <item
+            android:id="@+id/Extra1"
+
+            android:title="Extra1" />
+        <item
+            android:id="@+id/Extra2"
+
+            android:title="Extra2" />
+    </group>
+
+
+
+</menu>
