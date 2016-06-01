@@ -1,0 +1,69 @@
+a:link {
+	text-decoration: none;
+	font-weight: normal;
+	color: white;
+}
+a:visited {
+	text-decoration: none;
+	font-weight: normal;
+	color: white;
+}
+a:hover {
+	text-decoration: underline;
+	font-weight: normal;
+}
+a:focus {
+	text-decoration: none;
+	font-weight: normal;
+}
+body {
+	color: black;
+}
+#hauptbox
+{
+  width:1000px;
+  margin:0 auto;
+  background-Color:white;
+  border:2px solid #dc131d;
+}
+#unten
+{
+  width:1000px;
+}
+#unten_menu
+{
+  width:998px;
+  margin:0 auto;
+  color: white;
+  background-Color:#dc131d;
+  border:2px solid #dc131d;
+}
+#left
+{
+  width:200px;
+  float:left;
+}
+#right
+{
+  width:490px;
+  padding:0px 0px 0px 10px;
+  float:left;
+}
+.ausgabe
+{
+  width:1000px;    
+}
+td
+{
+      height: 40px; 
+      width: 140px;
+}
+th, td {
+    padding: 0px 0px 0px 15px;
+    text-align: left;
+}
+.loggin
+{
+  width:400px;
+  margin:0 auto;
+}
